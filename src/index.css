@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;1,300&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	width: 100%;
+	background-color: #ddd;
+	font-family: 'Nunito', sans-serif;
+	overflow: scroll;
+}
+
+.modal.show .modal-dialog {
+    transform: none;
+    max-width: 1020px !important;
+}
+
+@media (max-width: 500px) {
+	.app {
+		margin: auto;
+		width: 90%;
+	}
+}
+
+nav {
+	text-align: center;
+	padding: 20px 0;
+}
+
+/* form {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+} */
+.add-post-container button{
+	margin: 20px 10px;
+	width: 20%;
+	margin-left: auto;
+	padding: 12px;
+
+}
+.form-control {
+    display: block;
+    width: 100%;
+    border-radius: 0;
+    padding: 10px 10px;
+    margin: 5px 0;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    appearance: none;
+    border-radius: 0;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.form-control,
+button {
+	padding: 20px;
+	border-radius: 5px;
+}
+
+form button {
+	background-color: #212529;
+	color: #fff;
+	border: none;
+	cursor: pointer;
+}
+
+.posts-container {
+	margin-top: 50px;
+}
+
+.posts-container h2 {
+	margin: 15px 0;
+}
+
+.post-card {
+	background-color: #fff;
+	padding: 20px;
+	border-radius: 5px;
+	margin-bottom: 20px;
+}
+
+.all-btn {
+	background-color: red;
+    color: #fff;
+    padding: 6px 24px;
+    border-radius: 0;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+	margin: 0 6px;
+}
+.all-btn.edit-btn{
+	background-color: green;
+
+}
+.all-btn.view-btn{
+	background-color: blue;
+
+}
+.add-post-container {
+    margin: 10px;
+}
+
+.add-new-emp button, .add-new-emp button:hover {
+	background-color: #008000;
+    border: 0;
+    border-radius: 0;
+	color: #000;
+
+}
+.view-modal.modal.show .modal-dialog{
+	max-width: 630px !important;
+}
+.add-new-emp button img{
+width: 30px;
+}
+.employe-header{
+	margin-top: 20px;
+}
+.employe-header table td, .employe-header table th{
+	text-align: center;
+	padding: 10px;
+}
+
+nav.title-name{
+	background-color: #212529;
+	color: #fff;
+}
